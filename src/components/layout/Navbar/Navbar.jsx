@@ -34,7 +34,7 @@ function Navbar() {
                         : "bg-transparent"
                 }`}>
                 <div className="flex-1">
-                    <Logo className="h-8 w-8 text-accent hover:text-accent/80 transition-colors" />
+                    <Logo className="h-24 w-24 text-accent fill-accent hover:text-accent/80 transition-colors" />
                 </div>
 
                 {/* Mobile Menu Button */}

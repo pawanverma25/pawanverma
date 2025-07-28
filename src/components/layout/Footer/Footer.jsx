@@ -1,7 +1,5 @@
 import PropTypes from "prop-types";
 import * as FiIcons from "react-icons/fi";
-import { socialLinks } from "../../../constants";
-import React from "react";
 
 function SocialIcon({ icon, url, name }) {
     const Icon = FiIcons[icon];
@@ -27,7 +25,7 @@ const Footer = () => {
     return (
         <footer className="bg-navy text-accent py-4 text-center">
             <p>
-                &copy; {new Date().getFullYear()} Your Name. All rights
+                &copy; {new Date().getFullYear()} Pawan Verma. All rights
                 reserved.
             </p>
         </footer>

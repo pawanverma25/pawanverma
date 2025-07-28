@@ -6,33 +6,13 @@ function Experience() {
 
     const experiences = [
         {
-            company: "Upstatement",
-            title: "Lead Engineer",
-            period: "May 2018 - Present",
+            company: "Tata Consultancy Services",
+            title: "Systems Engineer",
+            period: "Jan 2024 - Present",
             responsibilities: [
+                "Develop scalable mobile applications and back-end services for India's premier financial institution using Spring Boot and React Native ensuring robust and modular architecture.",
                 "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-                "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Next.js, React, and Craft",
-                "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis"
-            ]
-        },
-        {
-            company: "Scout Studio",
-            title: "Studio Developer",
-            period: "Jan 2017 - April 2018",
-            responsibilities: [
-                "Worked with a team of developers to build a new website for a local non-profit organization",
-                "Interfaced with clients on a weekly basis, providing technological expertise",
-                "Helped solidify a brand direction for blistabloc that spans both packaging and web"
-            ]
-        },
-        {
-            company: "Apple",
-            title: "UI Engineer Co-op",
-            period: "July 2016 - Dec 2016",
-            responsibilities: [
-                "Developed and shipped highly interactive web applications for Apple Music using Ember.js",
-                "Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs",
-                "Architected and implemented the front-end of Apple Music's embeddable web player widget"
+                "Diagnosing and resolving production issues effectively, minimizing downtime and enhancing application reliability through detailed debugging and root cause analysis."
             ]
         }
     ];

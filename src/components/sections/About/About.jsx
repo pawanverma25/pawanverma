@@ -16,7 +16,7 @@ function About() {
 				<div className="flex gap-7 flex-wrap">
 					<div className="flex-[3] flex flex-col gap-4 text-secondary3">
 						<p className="text-p">
-							Hello! My name is Brittany and I enjoy creating
+							Hello! My name is Pawan and I enjoy creating
 							things that live on the internet. My interest in web
 							development started back in 2012 when I decided to
 							try editing custom Tumblr themes — turns out hacking
@@ -74,20 +74,28 @@ function About() {
 						</p>
 						<ul className="mt-5 list">
 							<li className="list-items text-secondary">
-								JavaScript (ES6+)
+								Spring Boot 3
 							</li>
 							<li className="list-items text-secondary">
-								TypeScript
-							</li>
-							<li className="list-items text-secondary">React</li>
-							<li className="list-items text-secondary">
-								Eleventy
+								ReactJs
 							</li>
 							<li className="list-items text-secondary">
-								Node.js
+								JPA/Hibernate
 							</li>
 							<li className="list-items text-secondary">
-								WordPress
+								React Native
+							</li>
+							<li className="list-items text-secondary">
+								Java
+							</li>
+							<li className="list-items text-secondary">
+								Javascript
+							</li>
+							<li className="list-items text-secondary">
+								MySQL
+							</li>
+							<li className="list-items text-secondary">
+								C++
 							</li>
 						</ul>
 					</div>

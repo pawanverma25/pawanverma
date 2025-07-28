@@ -1,5 +1,5 @@
 import { FiGithub, FiInstagram, FiTwitter, FiLinkedin, FiCodepen } from "react-icons/fi";
-export const socialLinks = [
+export const socialLinkList = [
     { 
         name: 'GitHub',
         icon: FiGithub,

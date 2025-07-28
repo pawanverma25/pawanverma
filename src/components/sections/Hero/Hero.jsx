@@ -11,7 +11,7 @@ function Hero() {
                     Hi, my name is
                 </p>
                 <h1 className="lg:text-7xl md:text-6xl text-[3.5rem] leading-[4rem] lg:leading-[6rem] font-black text-primary">
-                    Your Name.
+                    Pawan Verma.
                 </h1>
                 <h1 className="lg:text-7xl md:text-6xl text-[3.5rem] mb-5 font-black text-secondary">
                     I build things for the web.
@@ -19,16 +19,17 @@ function Hero() {
                 <p className="text-p lg:w-[60%] w-[80%] lg:mb-18 mb-14 text-secondary2">
                     I&apos;m a software engineer specializing in building (and
                     occasionally designing) exceptional digital experiences.
-                    Currently, I&apos;m focused on building accessible,
+                    Currently, I&apos;m focused on building secure, robust and
                     human-centered products at
                     <a href="#" className="link">
-                        Upstatement
+                        TCS
                     </a>
                     .
                 </p>
                 <Button
-                    text="Check out my course!"
+                    text="Connect with me!"
                     innerClassName="px-8 py-4"
+                    href="mailto:pawanashokverma@gmail.com"
                 />
             </div>
         </section>
