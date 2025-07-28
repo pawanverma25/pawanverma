@@ -22,6 +22,23 @@ export default {
 				'mono': ['SF Mono', 'Fira Code', 'monospace'],
 				'sans': ['Calibre', 'Inter', 'system-ui', 'sans-serif'],
 			},
+			animation: {
+				fadeIn: 'fadeIn 2s ease-in-out forwards',
+				fadeOut: 'fadeOut 2s ease-in-out forwards',
+			},
+			keyframes: {
+				fadeIn: {
+					'0%': { opacity: '0' },
+					'100%': { opacity: '1' },
+				},
+				fadeOut: {
+					'0%': { opacity: '1' },
+					'100%': { opacity: '0' },
+				},
+			},
+			height: {
+				'safe-area': 'env(safe-area-inset-bottom, 0px)'
+			}
 		},
 	},
 	plugins: [],

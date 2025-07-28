@@ -1,6 +1,7 @@
-import PropTypes from 'prop-types';
-import * as FiIcons from 'react-icons/fi';
-import { socialLinks } from '../../../constants';
+import PropTypes from "prop-types";
+import * as FiIcons from "react-icons/fi";
+import { socialLinks } from "../../../constants";
+import React from "react";
 
 function SocialIcon({ icon, url, name }) {
     const Icon = FiIcons[icon];
@@ -10,8 +11,7 @@ function SocialIcon({ icon, url, name }) {
             aria-label={`Link to ${name}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-slate hover:text-accent hover:-translate-y-1 transition-all"
-        >
+            className="text-slate hover:text-accent hover:-translate-y-1 transition-all">
             <Icon size={20} />
         </a>
     );
@@ -20,32 +20,18 @@ function SocialIcon({ icon, url, name }) {
 SocialIcon.propTypes = {
     icon: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired
+    name: PropTypes.string.isRequired,
 };
 
-function Footer() {
+const Footer = () => {
     return (
-        <footer className="py-6 px-4 text-center">
-            {/* Mobile Social Links */}
-            <div className="md:hidden flex justify-center gap-6 mb-4">
-                {socialLinks.map((social) => (
-                    <SocialIcon key={social.name} {...social} />
-                ))}
-            </div>
-
-            <div className="font-mono text-xs text-slate/70 space-y-2">
-                <a 
-                    href="https://github.com/bchiang7/v4"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-accent transition-colors"
-                >
-                    <div>Designed by Brittany Chiang</div>
-                    <div>Built by Pawan Verma</div>
-                </a>
-            </div>
+        <footer className="bg-navy text-accent py-4 text-center">
+            <p>
+                &copy; {new Date().getFullYear()} Your Name. All rights
+                reserved.
+            </p>
         </footer>
     );
-}
+};
 
-export default Footer; 
+export default Footer;

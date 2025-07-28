@@ -7,9 +7,9 @@ function Layout({ children }) {
     return (
         <div className="bg-navy min-h-screen">
             <Navbar />
-            <Email />
-            <main>{children}</main>
+            <main className="px-6 md:px-10">{children}</main>
             <SocialLinks />
+            <Email />
             <Footer />
         </div>
     );
