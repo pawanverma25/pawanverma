@@ -5,7 +5,7 @@ export const projects = [
         tech: ["Next.js", "Supabase", "MDX", "Tailwind"],
         github: "https://github.com/yourusername/supabase-projects",
         external: "https://supabase.com/showcase",
-        image: "/"
+        image: "https://raw.githubusercontent.com/pawanverma25/media/35a3bf065a2fb524561283496595cb79ce96c98e/PathFinder.png"
     },
     {
         title: "Spotify Connected App",
@@ -13,7 +13,7 @@ export const projects = [
         tech: ["React", "Express", "Spotify API", "Styled Components"],
         github: "https://github.com/yourusername/spotify-app",
         external: "https://spotify-profile.netlify.app/",
-        image: "/projects/spotify.png",
+        image: "https://raw.githubusercontent.com/pawanverma25/media/35a3bf065a2fb524561283496595cb79ce96c98e/PathFinder.png",
         isReverse: true
     }
 ];

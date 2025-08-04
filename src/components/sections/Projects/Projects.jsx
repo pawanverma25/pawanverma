@@ -19,7 +19,10 @@ function ProjectCard({
                     ? "md:grid-cols-[1fr_1.5fr]"
                     : "md:grid-cols-[1.5fr_1fr]"
             }`}>
-            <div className={`relative z-10 ${isReverse ? "md:order-2" : ""}`}>
+            <div
+                className={`relative flex flex-col z-10 ${
+                    isReverse ? "md:order-2 items-end" : "items-start"
+                }`}>
                 <h3 className="text-2xl font-bold text-primary mb-4">
                     {title}
                 </h3>

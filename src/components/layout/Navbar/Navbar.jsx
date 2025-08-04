@@ -33,8 +33,9 @@ function Navbar() {
                         ? "backdrop-blur-md bg-navy/70 shadow-lg"
                         : "bg-transparent"
                 }`}>
-                <div className="flex-1">
+                <div className="flex-1 flex items-center gap-2 text-secondary">
                     <Logo className="h-24 w-24 text-accent fill-accent hover:text-accent/80 transition-colors" />
+                    <p className="text-xl">Pawan Verma</p>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -55,7 +56,7 @@ function Navbar() {
             </nav>
 
             {/* Mobile Navigation */}
-            <BottomNav />
+            {isMenuOpen && <BottomNav />}
         </>
     );
 }
@@ -101,11 +102,11 @@ function NavItems() {
             </a>
             <Button
                 text="Resume"
-                href="/resume.pdf"
+                href="/resumepdf"
                 variant="outline"
                 size="sm"
                 className="ml-4"
-                aria-label="Download Resume"
+                aria-label="View Resume"
             />
         </>
     );

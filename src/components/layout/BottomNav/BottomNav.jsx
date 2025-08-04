@@ -1,12 +1,5 @@
-import React, { useState } from "react";
-import {
-    HiHome,
-    HiUser,
-    HiBriefcase,
-    HiCode,
-    HiAcademicCap,
-    HiMail,
-} from "react-icons/hi";
+import { useState } from "react";
+import { HiBriefcase, HiCode, HiHome, HiMail, HiUser } from "react-icons/hi";
 import { Link } from "react-scroll";
 
 const navItems = [
@@ -14,11 +7,11 @@ const navItems = [
     { id: "about", icon: HiUser, label: "About" },
     { id: "experience", icon: HiBriefcase, label: "Experience" },
     { id: "projects", icon: HiCode, label: "Projects" },
-    { id: "certifications", icon: HiAcademicCap, label: "Certificates" },
+    // { id: "certifications", icon: HiAcademicCap, label: "Certificates" },
     { id: "contact", icon: HiMail, label: "Contact" },
 ];
 
-const BottomNav = () => {
+const BottomNav = ({ isMenuOpen }) => {
     const [activeSection, setActiveSection] = useState("hero");
 
     return (

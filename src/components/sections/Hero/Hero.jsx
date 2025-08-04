@@ -6,7 +6,7 @@ function Hero() {
         <section
             id="hero"
             className="flex-1 flex items-center justify-center h-screen">
-            <div className="lg:w-[65%] md:w-[70%] w-[88%] my-auto">
+            <div className="lg:w-[65%] md:w-[70%] w-[88%] my-auto mt-20">
                 <p className="code-text text-[18px] mb-5 tracking-normal">
                     Hi, my name is
                 </p>
